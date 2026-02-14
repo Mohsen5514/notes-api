@@ -28,6 +28,15 @@ This project follows Clean Architecture principles:
 - SQLite (Development)
 
 ## 📂 Project Structure
-- accounts/ # Authentication logic
-- tasks/ # Notes application
-- services.py # Business logic layer
+
+- accounts/ → authentication logic
+- tasks/ → notes application
+- services.py → business logic layer
+
+## ⚙️ How to Run
+
+```bash
+git clone <your-repo-url>
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
