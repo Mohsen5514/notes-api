@@ -1,8 +1,9 @@
 # Notes API
 
-A RESTful API built with Django and Django REST Framework.
+A RESTful API built using Django and Django REST Framework.
 
-## Features
+## 🚀 Features
+
 - JWT Authentication
 - Pagination
 - Throttling
@@ -10,21 +11,32 @@ A RESTful API built with Django and Django REST Framework.
 - Clean Architecture (Service Layer)
 - Custom Exception Handling
 
-## Tech Stack
+## 🧠 Architecture
+
+This project follows Clean Architecture principles:
+
+- Views handle requests only
+- Business logic lives inside a Service Layer
+- Models handle data
+- Serializers handle validation and transformation
+
+## 🛠 Tech Stack
+
 - Python
 - Django
 - Django REST Framework
-- SQLite (dev)
+- SQLite (Development)
 
-## Project Structure
+## 📂 Project Structure
+
 - accounts/ → authentication logic
-- tasks/ → notes app
+- tasks/ → notes application
 - services.py → business logic layer
 
-## How to Run
+## ⚙️ How to Run
 
 ```bash
-git clone ...
+git clone <your-repo-url>
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
