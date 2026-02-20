@@ -1,6 +1,6 @@
 # Notes API
 
-A RESTful API built using Django and Django REST Framework.
+A RESTful API built using Django and DRF.
 
 ## 🚀 Features
 
